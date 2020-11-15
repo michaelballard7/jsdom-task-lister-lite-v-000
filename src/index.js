@@ -27,5 +27,9 @@ document.addEventListener("DOMContentLoaded", () => {
       taskList.appendChild(task)
   })
 
+  delBtn.addEventListener('click', function(){
+      console.log('called ')
+  })
+
 
 });
