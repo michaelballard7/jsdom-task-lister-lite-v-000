@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
       // set li value with delete btn as html template
-      task.innerHTML = `${val}  <button> X </button>`;
+      task.innerHTML = `${val}  <button class='del'> X </button>`;
 
       // append li to ul
       taskList.appendChild(task)
