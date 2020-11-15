@@ -27,7 +27,6 @@ document.addEventListener("DOMContentLoaded", () => {
       taskList.appendChild(task)
   })
 
-
   taskContainer.addEventListener('click', (e) => {
       if(e.target.classList[0] === 'del'){
           e.target.remove()
