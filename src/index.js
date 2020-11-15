@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", () => {
   })
 
   taskContainer.addEventListener('click', (e) => {
-
+      // e.target helps with event delegation
       if(e.target.classList[0] === 'del'){
           e.target.parentNode.remove()
       }
