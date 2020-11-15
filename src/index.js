@@ -27,13 +27,12 @@ document.addEventListener("DOMContentLoaded", () => {
       taskList.appendChild(task)
   })
 
-  if(delBtn){
 
-      delBtn.addEventListener('click', function(){
-          console.log('called ')
-      })
 
-  }
+  delBtn.addEventListener('click', function(){
+      console.log('called ')
+  })
+
 
 
 
