@@ -32,9 +32,9 @@ document.addEventListener("DOMContentLoaded", () => {
       delBtn.addEventListener('click', function(){
           console.log('called ')
       })
-      
+
   }
- 
+
 
 
 });
