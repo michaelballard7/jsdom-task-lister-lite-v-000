@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
   taskContainer.addEventListener('click', (e) => {
-      console.log(e.target.classList)
+      console.log(e.target.classList[0])
 
 
   })
