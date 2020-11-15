@@ -28,8 +28,8 @@ document.addEventListener("DOMContentLoaded", () => {
   })
 
 
-  taskContainer.addEventListener('click', () => {
-      console.log('click')
+  taskContainer.addEventListener('click', (e) => {
+      console.log(e.target)
   })
 
 
