@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   let taskList = document.querySelector('#tasks')
 
-  let delBtn = document.querySelector('.del')
+  let taskContainer = document.querySelector('#list')
 
   form.addEventListener('submit', (e) => {
 
@@ -25,12 +25,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
       // append li to ul
       taskList.appendChild(task)
-  })
-
-
-
-  delBtn.addEventListener('click', function(){
-      console.log('called ')
   })
 
 
