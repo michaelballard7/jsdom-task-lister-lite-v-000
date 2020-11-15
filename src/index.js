@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    
+
   let userText = document.querySelector('#new-task-description');
 
   let form = document.querySelector('#create-task-form');
@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
       // set li value with delete btn as html template
-      task.innerHTML = `${val} <button> X </button>`;
+      task.innerHTML = `${val}  <button> X </button>`;
 
       // append li to ul
       taskList.appendChild(task)
