@@ -6,6 +6,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
   let taskList = document.querySelector('#tasks')
 
+  let delBtn = document.querySelector('.del')
+
   form.addEventListener('submit', (e) => {
 
       // prevent submit
